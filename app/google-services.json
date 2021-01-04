@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "982194665572",
+    "project_id": "akash-jadhav-1263d",
+    "storage_bucket": "akash-jadhav-1263d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982194665572:android:97bce0c5823fe216318771",
+        "android_client_info": {
+          "package_name": "com.example.akashjadhav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982194665572-iuog5sk44c5dm475m4fnp9ju2g799umm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQdMZcM19v1ocJTjtAZsEU88sD8F428ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982194665572-iuog5sk44c5dm475m4fnp9ju2g799umm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

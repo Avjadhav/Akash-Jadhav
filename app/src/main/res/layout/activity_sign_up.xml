@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Verify Your Number"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="@color/call"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="30dp"
+        android:text="Please select your Country Code and Enter Phone number for verication"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+</RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/rl1">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/countryCodePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_background"/>
+
+        <EditText
+            android:id="@+id/etPhonenumber"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingStart="5dp"
+            android:hint="Your Phone Number"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/et_background"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btnGenerateOTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate Otp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/call"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
